@@ -12,15 +12,4 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
         clientSecret: env.get('GITHUB_SECRET')!,
       }),
     ] as Provider[],
-    cookies: {
-      pkceCodeVerifier: {
-        name: 'next-auth.pkce.code_verifier',
-        options: {
-          httpOnly: true,
-          sameSite: 'none',
-          path: '/',
-          secure: true,
-        },
-      },
-    },
   }));
