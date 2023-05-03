@@ -10,7 +10,7 @@ export default component$(() => {
       <input
         type='hidden'
         name='options.callbackUrl'
-        value='http://127.0.0.1:5173/api/auth/callback/github'
+        value='http://localhost:5173/auth'
       />
       <button>Sign In</button>
     </Form>

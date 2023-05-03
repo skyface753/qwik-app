@@ -1,5 +1,13 @@
 # Qwik City App ⚡️
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 - [Qwik Docs](https://qwik.builder.io/)
 - [Discord](https://qwik.builder.io/chat)
 - [Qwik GitHub](https://github.com/BuilderIO/qwik)
